@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_object_animator"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kingsoft.zkdemo.objectanimator.ObjectAnimatorActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/iv_icon"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/ic_launcher"/>
+
+            <Button
+                android:id="@+id/btn_translationy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="TranslationY 属性，让其沿着 X 轴平移一段距离"/>
+            <Button
+                android:id="@+id/btn_set"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="动画集合，5 秒内对 View 旋转、平移、缩放和透明度进行了改变"/>
+
+            <View
+                android:id="@+id/ll_color"
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:background="@color/colorPrimary"/>
+
+            <Button
+                android:id="@+id/btn_changecolor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="改变 View 对象的背景色由红色变为蓝色"/>
+        </LinearLayout>
+
+
+    </android.support.v4.widget.NestedScrollView>
+</RelativeLayout>
