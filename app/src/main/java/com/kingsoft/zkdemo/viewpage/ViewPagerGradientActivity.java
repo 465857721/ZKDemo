@@ -19,7 +19,10 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-
+/**
+ * http://blog.csdn.net/u011200844/article/details/44458395
+ * http://www.jianshu.com/p/c9bbf9f4bf06
+ */
 public class ViewPagerGradientActivity extends AppCompatActivity {
 
     @BindView(R.id.viewpager)
