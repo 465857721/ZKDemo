@@ -23,6 +23,8 @@
         </activity>
         <activity android:name=".coordinatorlayout.HeaderScrollingBehaviorActivity">
         </activity>
+        <activity android:name=".viewpage.ViewPagerGradientActivity">
+        </activity>
     </application>
 
 </manifest>

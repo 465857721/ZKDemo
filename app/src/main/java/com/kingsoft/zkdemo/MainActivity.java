@@ -1,6 +1,5 @@
 package com.kingsoft.zkdemo;
 
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -10,8 +9,8 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 import com.kingsoft.zkdemo.coordinatorlayout.BehaviorALLActivity;
-import com.kingsoft.zkdemo.coordinatorlayout.BehaviorFollowActivity;
 import com.kingsoft.zkdemo.objectanimator.ObjectAnimatorActivity;
+import com.kingsoft.zkdemo.viewpage.ViewPagerGradientActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -27,6 +26,8 @@ public class MainActivity extends AppCompatActivity {
     Button btnTranslation;
     @BindView(R.id.activity_main)
     LinearLayout activityMain;
+    @BindView(R.id.btn_viewpage)
+    Button btnViewpage;
 
     private Context mContext;
 
@@ -38,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
         mContext = this;
     }
 
-    @OnClick({R.id.btn_behavior, R.id.btn_ocr, R.id.btn_translation})
+    @OnClick({R.id.btn_behavior, R.id.btn_ocr, R.id.btn_translation, R.id.btn_viewpage})
     public void onClick(View view) {
         Intent mIntent = new Intent();
         switch (view.getId()) {
@@ -48,6 +49,10 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_translation:
                 mIntent.setClass(mContext, ObjectAnimatorActivity.class);
+                startActivity(mIntent);
+                break;
+            case R.id.btn_viewpage:
+                mIntent.setClass(mContext, ViewPagerGradientActivity.class);
                 startActivity(mIntent);
                 break;
             case R.id.btn_ocr:

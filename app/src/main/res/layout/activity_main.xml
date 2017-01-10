@@ -11,11 +11,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Behavior_ALL"/>
+
     <Button
         android:id="@+id/btn_translation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="属性动画"/>
+
+    <Button
+        android:id="@+id/btn_viewpage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ArgbEvaluator实现ViewPager渐变"/>
 
     <Button
         android:id="@+id/btn_ocr"
