@@ -7,7 +7,7 @@ import android.view.View;
 
 import com.kingsoft.zkdemo.R;
 //http://www.open-open.com/lib/view/open1480387021766.html
-public class BehaviorActivity extends AppCompatActivity {
+public class BehaviorFollowActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

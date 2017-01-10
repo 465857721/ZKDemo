@@ -1,5 +1,6 @@
 package com.kingsoft.zkdemo;
 
+import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.os.Bundle;
@@ -8,7 +9,8 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
-import com.kingsoft.zkdemo.coordinatorlayout.BehaviorActivity;
+import com.kingsoft.zkdemo.coordinatorlayout.BehaviorALLActivity;
+import com.kingsoft.zkdemo.coordinatorlayout.BehaviorFollowActivity;
 import com.kingsoft.zkdemo.objectanimator.ObjectAnimatorActivity;
 
 import butterknife.BindView;
@@ -41,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         Intent mIntent = new Intent();
         switch (view.getId()) {
             case R.id.btn_behavior:
-                mIntent.setClass(mContext, BehaviorActivity.class);
+                mIntent.setClass(mContext, BehaviorALLActivity.class);
                 startActivity(mIntent);
                 break;
             case R.id.btn_translation:

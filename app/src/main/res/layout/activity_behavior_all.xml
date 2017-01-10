@@ -1,25 +1,28 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/activity_main"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_behavior_all"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    tools:context="com.kingsoft.zkdemo.coordinatorlayout.BehaviorALLActivity">
 
     <Button
-        android:id="@+id/btn_behavior"
+        android:id="@+id/btn_behavior_follow"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Behavior_ALL"/>
-    <Button
-        android:id="@+id/btn_translation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="属性动画"/>
+        android:text="Behavior_follow"/>
 
     <Button
-        android:id="@+id/btn_ocr"
+        android:id="@+id/btn_behavior_head_test"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="other"/>
+        android:text="头部视图背景随折叠状态而缩放和渐变"/>
+
+    <Button
+        android:id="@+id/btn_behavior_uc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="仿UC复杂特效"/>
 </LinearLayout>

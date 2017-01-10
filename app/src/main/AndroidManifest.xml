@@ -15,9 +15,13 @@
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
         </activity>
-        <activity android:name=".coordinatorlayout.BehaviorActivity">
+        <activity android:name=".coordinatorlayout.BehaviorFollowActivity">
         </activity>
         <activity android:name=".objectanimator.ObjectAnimatorActivity">
+        </activity>
+        <activity android:name=".coordinatorlayout.BehaviorALLActivity">
+        </activity>
+        <activity android:name=".coordinatorlayout.HeaderScrollingBehaviorActivity">
         </activity>
     </application>
 
