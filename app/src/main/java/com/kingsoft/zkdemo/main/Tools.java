@@ -1,4 +1,4 @@
-package com.kingsoft.zkdemo;
+package com.kingsoft.zkdemo.main;
 
 import android.content.Context;
 import android.view.Gravity;

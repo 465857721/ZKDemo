@@ -1,4 +1,4 @@
-package com.kingsoft.zkdemo;
+package com.kingsoft.zkdemo.main;
 
 import android.content.Context;
 import android.content.Intent;
@@ -8,7 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.LinearLayout;
 
+import com.kingsoft.zkdemo.R;
 import com.kingsoft.zkdemo.coordinatorlayout.BehaviorALLActivity;
+import com.kingsoft.zkdemo.nightmode.NightALLActivity;
 import com.kingsoft.zkdemo.objectanimator.ObjectAnimatorActivity;
 import com.kingsoft.zkdemo.viewpage.ViewPagerGradientActivity;
 
@@ -39,7 +41,7 @@ public class MainActivity extends AppCompatActivity {
         mContext = this;
     }
 
-    @OnClick({R.id.btn_behavior, R.id.btn_ocr, R.id.btn_translation, R.id.btn_viewpage})
+    @OnClick({R.id.btn_behavior, R.id.btn_ocr, R.id.btn_translation, R.id.btn_viewpage, R.id.btn_nightmode})
     public void onClick(View view) {
         Intent mIntent = new Intent();
         switch (view.getId()) {
@@ -53,6 +55,10 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_viewpage:
                 mIntent.setClass(mContext, ViewPagerGradientActivity.class);
+                startActivity(mIntent);
+                break;
+            case R.id.btn_nightmode:
+                mIntent.setClass(mContext, NightALLActivity.class);
                 startActivity(mIntent);
                 break;
             case R.id.btn_ocr:

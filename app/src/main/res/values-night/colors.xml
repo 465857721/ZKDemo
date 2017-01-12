@@ -8,6 +8,6 @@
     <color name="colorInitFloatBackground">#b0ffffff</color>
     <color name="colorCollapsedFloatBackground">#e4e4e4</color>
 
-    <color name="background">#FFFFFF</color>
-    <color name="textcolor">#000000</color>
+    <color name="background">#000000</color>
+    <color name="textcolor">#ffffff</color>
 </resources>

@@ -2,4 +2,6 @@
     <string name="app_name">ZKDemo</string>
     <string name="header_scrolling_behavior">com.kingsoft.zkdemo.coordinatorlayout.HeaderScrollingBehavior</string>
     <string name="header_float_behavior">com.kingsoft.zkdemo.coordinatorlayout.HeaderFloatBehavior</string>
+    <string name="title_activity_night_all">NightAllActivity</string>
+    <string name="action_settings">Settings</string>
 </resources>

@@ -23,7 +23,11 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="ArgbEvaluator实现ViewPager渐变"/>
-
+    <Button
+        android:id="@+id/btn_nightmode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="夜间模式"/>
     <Button
         android:id="@+id/btn_ocr"
         android:layout_width="match_parent"
