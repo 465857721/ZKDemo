@@ -13,6 +13,7 @@ import com.kingsoft.zkdemo.coordinatorlayout.BehaviorALLActivity;
 import com.kingsoft.zkdemo.download.test.DownMainActivity;
 import com.kingsoft.zkdemo.nightmode.NightALLActivity;
 import com.kingsoft.zkdemo.objectanimator.ObjectAnimatorActivity;
+import com.kingsoft.zkdemo.okhttp.OKHttpActivity;
 import com.kingsoft.zkdemo.viewpage.ViewPagerGradientActivity;
 
 import butterknife.BindView;
@@ -42,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         mContext = this;
     }
 
-    @OnClick({R.id.btn_down, R.id.btn_behavior, R.id.btn_ocr, R.id.btn_translation, R.id.btn_viewpage, R.id.btn_nightmode})
+    @OnClick({R.id.btn_okhttp, R.id.btn_down, R.id.btn_behavior, R.id.btn_ocr, R.id.btn_translation, R.id.btn_viewpage, R.id.btn_nightmode})
     public void onClick(View view) {
         Intent mIntent = new Intent();
         switch (view.getId()) {
@@ -64,6 +65,10 @@ public class MainActivity extends AppCompatActivity {
                 break;
             case R.id.btn_down:
                 mIntent.setClass(mContext, DownMainActivity.class);
+                startActivity(mIntent);
+                break;
+            case R.id.btn_okhttp:
+                mIntent.setClass(mContext, OKHttpActivity.class);
                 startActivity(mIntent);
                 break;
             case R.id.btn_ocr:

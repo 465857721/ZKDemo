@@ -73,23 +73,20 @@
         </activity>
         <activity android:name=".viewpage.ViewPagerGradientActivity">
         </activity>
-        <!--下载 -->
-        <activity
-            android:name=".download.test.TaskManageActivity"/>
-        <activity
-            android:name=".download.test.ServiceTaskActivity"/>
-        <activity
-            android:name=".download.test.SingleTaskActivity"/>
-        <activity
-            android:name=".download.test.DownMainActivity"/>
+        <!-- 下载 -->
+        <activity android:name=".download.test.TaskManageActivity"/>
+        <activity android:name=".download.test.ServiceTaskActivity"/>
+        <activity android:name=".download.test.SingleTaskActivity"/>
+        <activity android:name=".download.test.DownMainActivity"/>
 
-        <service
-            android:name=".download.test.DownloadService">
+        <service android:name=".download.test.DownloadService">
         </service>
 
         <activity android:name=".nightmode.NightALLActivity">
         </activity>
         <activity android:name=".nightmode.NightUIManagerActivity">
+        </activity>
+        <activity android:name=".okhttp.OKHttpActivity">
         </activity>
     </application>
 
