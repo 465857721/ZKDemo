@@ -73,6 +73,8 @@
         </activity>
         <activity android:name=".viewpage.ViewPagerGradientActivity">
         </activity>
+        <activity android:name=".viewpage.ViewPagerNetEasyActivity">
+        </activity>
         <!-- 下载 -->
         <activity android:name=".download.test.TaskManageActivity"/>
         <activity android:name=".download.test.ServiceTaskActivity"/>
@@ -87,6 +89,10 @@
         <activity android:name=".nightmode.NightUIManagerActivity">
         </activity>
         <activity android:name=".okhttp.OKHttpActivity">
+        </activity>
+        <activity android:name=".viewpage.ViewPagerAllActivity">
+        </activity>
+        <activity android:name=".greendao.NoteActivity">
         </activity>
     </application>
 

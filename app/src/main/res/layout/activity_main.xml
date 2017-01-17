@@ -22,7 +22,7 @@
         android:id="@+id/btn_viewpage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="ArgbEvaluator实现ViewPager渐变"/>
+        android:text="ViewPager"/>
 
     <Button
         android:id="@+id/btn_nightmode"
@@ -41,6 +41,12 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="OKHttp"/>
+
+    <Button
+        android:id="@+id/btn_greendao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="GreebDao"/>
 
     <Button
         android:id="@+id/btn_ocr"
