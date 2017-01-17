@@ -11,7 +11,6 @@ import android.widget.LinearLayout;
 import com.kingsoft.zkdemo.R;
 import com.kingsoft.zkdemo.coordinatorlayout.BehaviorALLActivity;
 import com.kingsoft.zkdemo.download.test.DownMainActivity;
-import com.kingsoft.zkdemo.greendao.NoteActivity;
 import com.kingsoft.zkdemo.nightmode.NightALLActivity;
 import com.kingsoft.zkdemo.objectanimator.ObjectAnimatorActivity;
 import com.kingsoft.zkdemo.okhttp.OKHttpActivity;
@@ -73,8 +72,8 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(mIntent);
                 break;
             case R.id.btn_greendao:
-                mIntent.setClass(mContext, NoteActivity.class);
-                startActivity(mIntent);
+//                mIntent.setClass(mContext, NoteActivity.class);
+//                startActivity(mIntent);
                 break;
             case R.id.btn_ocr:
                 break;

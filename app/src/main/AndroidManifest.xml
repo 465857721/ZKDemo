@@ -92,8 +92,7 @@
         </activity>
         <activity android:name=".viewpage.ViewPagerAllActivity">
         </activity>
-        <activity android:name=".greendao.NoteActivity">
-        </activity>
+
     </application>
 
 </manifest>
