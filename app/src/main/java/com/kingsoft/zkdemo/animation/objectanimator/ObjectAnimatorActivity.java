@@ -1,4 +1,4 @@
-package com.kingsoft.zkdemo.objectanimator;
+package com.kingsoft.zkdemo.animation.objectanimator;
 
 import android.animation.AnimatorSet;
 import android.animation.ArgbEvaluator;

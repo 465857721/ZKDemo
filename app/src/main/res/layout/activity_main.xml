@@ -16,7 +16,7 @@
         android:id="@+id/btn_translation"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="属性动画"/>
+        android:text="动画"/>
 
     <Button
         android:id="@+id/btn_viewpage"

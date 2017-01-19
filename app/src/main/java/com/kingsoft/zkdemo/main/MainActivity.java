@@ -9,14 +9,14 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 
 import com.kingsoft.zkdemo.R;
+import com.kingsoft.zkdemo.animation.AnimationALLActivity;
 import com.kingsoft.zkdemo.coordinatorlayout.BehaviorALLActivity;
 import com.kingsoft.zkdemo.download.test.DownMainActivity;
 import com.kingsoft.zkdemo.greendao.GreenDaoActivity;
 import com.kingsoft.zkdemo.nightmode.NightALLActivity;
-import com.kingsoft.zkdemo.objectanimator.ObjectAnimatorActivity;
+import com.kingsoft.zkdemo.animation.objectanimator.ObjectAnimatorActivity;
 import com.kingsoft.zkdemo.okhttp.OKHttpActivity;
 import com.kingsoft.zkdemo.refresh.ReFreshALLActivity;
-import com.kingsoft.zkdemo.refresh.demo.RefreshActivity;
 import com.kingsoft.zkdemo.viewpage.ViewPagerAllActivity;
 
 import butterknife.BindView;
@@ -55,7 +55,7 @@ public class MainActivity extends AppCompatActivity {
                 startActivity(mIntent);
                 break;
             case R.id.btn_translation:
-                mIntent.setClass(mContext, ObjectAnimatorActivity.class);
+                mIntent.setClass(mContext, AnimationALLActivity.class);
                 startActivity(mIntent);
                 break;
             case R.id.btn_viewpage:

@@ -5,7 +5,7 @@
     android:id="@+id/activity_object_animator"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.kingsoft.zkdemo.objectanimator.ObjectAnimatorActivity">
+    tools:context="com.kingsoft.zkdemo.animation.objectanimator.ObjectAnimatorActivity">
 
     <android.support.v4.widget.NestedScrollView
         android:layout_width="match_parent"
