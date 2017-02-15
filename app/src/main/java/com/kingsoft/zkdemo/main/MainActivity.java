@@ -14,9 +14,9 @@ import com.kingsoft.zkdemo.coordinatorlayout.BehaviorALLActivity;
 import com.kingsoft.zkdemo.download.test.DownMainActivity;
 import com.kingsoft.zkdemo.greendao.GreenDaoActivity;
 import com.kingsoft.zkdemo.nightmode.NightALLActivity;
-import com.kingsoft.zkdemo.animation.objectanimator.ObjectAnimatorActivity;
 import com.kingsoft.zkdemo.okhttp.OKHttpActivity;
 import com.kingsoft.zkdemo.refresh.ReFreshALLActivity;
+import com.kingsoft.zkdemo.rxjava.RXJAVAActivity;
 import com.kingsoft.zkdemo.viewpage.ViewPagerAllActivity;
 
 import butterknife.BindView;
@@ -46,7 +46,7 @@ public class MainActivity extends AppCompatActivity {
         mContext = this;
     }
 
-    @OnClick({R.id.btn_refresh,R.id.btn_greendao, R.id.btn_okhttp, R.id.btn_down, R.id.btn_behavior, R.id.btn_ocr, R.id.btn_translation, R.id.btn_viewpage, R.id.btn_nightmode})
+    @OnClick({R.id.btn_rxjava, R.id.btn_refresh, R.id.btn_greendao, R.id.btn_okhttp, R.id.btn_down, R.id.btn_behavior, R.id.btn_ocr, R.id.btn_translation, R.id.btn_viewpage, R.id.btn_nightmode})
     public void onClick(View view) {
         Intent mIntent = new Intent();
         switch (view.getId()) {
@@ -82,6 +82,11 @@ public class MainActivity extends AppCompatActivity {
                 mIntent.setClass(mContext, ReFreshALLActivity.class);
                 startActivity(mIntent);
                 break;
+            case R.id.btn_rxjava:
+                mIntent.setClass(mContext, RXJAVAActivity.class);
+                startActivity(mIntent);
+                break;
+
             case R.id.btn_ocr:
                 break;
         }
