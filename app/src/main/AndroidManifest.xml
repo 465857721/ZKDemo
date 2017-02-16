@@ -103,16 +103,14 @@
         </activity>
         <activity android:name=".animation.AnimationALLActivity">
         </activity>
-        <activity
-            android:name=".animation.penquan.SpringActivity"
-            android:label="@string/title_activity_spring"
-            android:theme="@style/AppTheme.NoActionBar">
-        </activity>
+
         <activity android:name=".animation.spring.SpringActivity">
         </activity>
         <activity android:name=".mvp.MVPActivity">
         </activity>
-        <activity android:name=".rxjava.RXJAVAActivity">
+        <activity android:name=".rx.rxjava.RXJAVAActivity">
+        </activity>
+        <activity android:name=".rx.RxSeriesActivity">
         </activity>
     </application>
 

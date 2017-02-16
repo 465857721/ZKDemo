@@ -1,66 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout
+<RelativeLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:id="@+id/activity_main"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:layout_height="match_parent">
 
-    <Button
-        android:id="@+id/btn_behavior"
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/main_rcl"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Behavior_ALL"/>
+        android:layout_height="wrap_content">
 
-    <Button
-        android:id="@+id/btn_translation"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="动画"/>
-
-    <Button
-        android:id="@+id/btn_viewpage"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="ViewPager"/>
-
-    <Button
-        android:id="@+id/btn_nightmode"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="夜间模式"/>
-
-    <Button
-        android:id="@+id/btn_down"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="下载断点续传"/>
-
-    <Button
-        android:id="@+id/btn_okhttp"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="OKHttp"/>
-
-    <Button
-        android:id="@+id/btn_greendao"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="GreebDao"/>
-
-    <Button
-        android:id="@+id/btn_refresh"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="下拉刷新"/>
-    <Button
-        android:id="@+id/btn_rxjava"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="other"/>
-    <Button
-        android:id="@+id/btn_ocr"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="other"/>
-</LinearLayout>
+    </android.support.v7.widget.RecyclerView>
+</RelativeLayout>
