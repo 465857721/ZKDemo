@@ -103,7 +103,6 @@
         </activity>
         <activity android:name=".animation.AnimationALLActivity">
         </activity>
-
         <activity android:name=".animation.spring.SpringActivity">
         </activity>
         <activity android:name=".mvp.MVPActivity">
@@ -111,6 +110,10 @@
         <activity android:name=".rx.rxjava.RXJAVAActivity">
         </activity>
         <activity android:name=".rx.RxSeriesActivity">
+        </activity>
+        <activity
+            android:theme="@style/AppTheme.NoActionBar"
+            android:name=".coordinatorlayout.SampleBehaviorActivity">
         </activity>
     </application>
 
