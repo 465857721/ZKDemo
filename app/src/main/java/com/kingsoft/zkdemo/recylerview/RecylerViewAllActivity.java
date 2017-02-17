@@ -1,4 +1,4 @@
-package com.kingsoft.zkdemo.rx;
+package com.kingsoft.zkdemo.recylerview;
 
 import android.content.Context;
 import android.os.Bundle;
@@ -12,13 +12,12 @@ import android.support.v7.widget.RecyclerView;
 import com.kingsoft.zkdemo.R;
 import com.kingsoft.zkdemo.main.DemoBean;
 import com.kingsoft.zkdemo.main.MainAdapter;
-import com.kingsoft.zkdemo.rx.rxdownload.RxDownloadActivity;
-import com.kingsoft.zkdemo.rx.rxjava.RXJAVAActivity;
+import com.kingsoft.zkdemo.recylerview.stickyheader.RecyclerStickyHeaderViewActivity;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-public class RxSeriesActivity extends AppCompatActivity {
+public class RecylerViewAllActivity extends AppCompatActivity {
     @BindView(R.id.main_rcl)
     RecyclerView mainRcl;
 
@@ -31,8 +30,7 @@ public class RxSeriesActivity extends AppCompatActivity {
         ButterKnife.bind(this);
         mContext = this;
         DemoBean[] arr = {
-                new DemoBean("RxJava", RXJAVAActivity.class),
-                new DemoBean("RxDownload", RxDownloadActivity.class)
+                new DemoBean("RecyclerStickyHeaderView", RecyclerStickyHeaderViewActivity.class)
         };
         MainAdapter adapter = new MainAdapter(arr, this);
         mainRcl.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));

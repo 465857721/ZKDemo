@@ -30,6 +30,8 @@ dependencies {
     compile fileTree(include: ['*.jar'], dir: 'libs')
     compile 'com.android.support:appcompat-v7:25.1.1'
     testCompile 'junit:junit:4.12'
+
+    compile 'com.github.bumptech.glide:glide:3.7.0'
     compile 'com.jakewharton:butterknife:8.4.0'
     annotationProcessor 'com.jakewharton:butterknife-compiler:8.4.0'
     compile 'com.android.support:design:25.1.1'
@@ -44,4 +46,7 @@ dependencies {
     compile 'com.race604.waveloading:library:1.1.1'
     //badgeview
     compile 'q.rorbin:badgeview:1.0.0'
+    //recylerview 添加吸顶header
+    compile 'com.github.TellH:RecyclerStickyHeaderView:1.0.0'
+
 }

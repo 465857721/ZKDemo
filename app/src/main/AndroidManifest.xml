@@ -117,10 +117,15 @@
         </activity>
         <activity android:name=".animation.other.WaveloadingActivity">
         </activity>
+        <activity android:name=".recylerview.RecylerViewAllActivity"/>
         <activity android:name=".othereffect.OtherEffectActivity"/>
         <activity android:name=".othereffect.badgeview.BadgeMainActivity"/>
         <activity android:name=".othereffect.badgeview.ListViewActivity"/>
         <activity android:name=".othereffect.badgeview.RecyclerViewActivity"/>
+        <activity android:name=".rx.rxdownload.RxDownloadActivity">
+        </activity>
+        <activity android:name=".recylerview.stickyheader.RecyclerStickyHeaderViewActivity">
+        </activity>
     </application>
 
 </manifest>
