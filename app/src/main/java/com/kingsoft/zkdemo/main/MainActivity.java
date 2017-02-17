@@ -16,6 +16,7 @@ import com.kingsoft.zkdemo.download.test.DownMainActivity;
 import com.kingsoft.zkdemo.greendao.GreenDaoActivity;
 import com.kingsoft.zkdemo.nightmode.NightALLActivity;
 import com.kingsoft.zkdemo.okhttp.OKHttpActivity;
+import com.kingsoft.zkdemo.othereffect.badgeview.BadgeMainActivity;
 import com.kingsoft.zkdemo.refresh.ReFreshALLActivity;
 import com.kingsoft.zkdemo.rx.RxSeriesActivity;
 import com.kingsoft.zkdemo.viewpage.ViewPagerAllActivity;
@@ -44,7 +45,8 @@ public class MainActivity extends AppCompatActivity {
                 new DemoBean("OKHttp", OKHttpActivity.class),
                 new DemoBean("GreenDao", GreenDaoActivity.class),
                 new DemoBean("下拉刷新", ReFreshALLActivity.class),
-                new DemoBean("Rx", RxSeriesActivity.class)
+                new DemoBean("Rx", RxSeriesActivity.class),
+                new DemoBean("OtherEffect", BadgeMainActivity.class)
         };
         MainAdapter adapter = new MainAdapter(arr, this);
         mainRcl.setLayoutManager(new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false));

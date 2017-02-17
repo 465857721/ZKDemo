@@ -40,4 +40,8 @@ dependencies {
     //rx
     compile 'io.reactivex.rxjava2:rxandroid:2.0.1'
     compile 'io.reactivex.rxjava2:rxjava:2.0.1'
+    //waveloading
+    compile 'com.race604.waveloading:library:1.1.1'
+    //badgeview
+    compile 'q.rorbin:badgeview:1.0.0'
 }

@@ -112,9 +112,15 @@
         <activity android:name=".rx.RxSeriesActivity">
         </activity>
         <activity
-            android:theme="@style/AppTheme.NoActionBar"
-            android:name=".coordinatorlayout.SampleBehaviorActivity">
+            android:name=".coordinatorlayout.SampleBehaviorActivity"
+            android:theme="@style/AppTheme.NoActionBar">
         </activity>
+        <activity android:name=".animation.other.WaveloadingActivity">
+        </activity>
+        <activity android:name=".othereffect.OtherEffectActivity"/>
+        <activity android:name=".othereffect.badgeview.BadgeMainActivity"/>
+        <activity android:name=".othereffect.badgeview.ListViewActivity"/>
+        <activity android:name=".othereffect.badgeview.RecyclerViewActivity"/>
     </application>
 
 </manifest>
